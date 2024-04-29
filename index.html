@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo-Quiz für MyQuizAdventure für MyCityHighlight</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+
+<body>
+
+    <div class="LoadingPage">
+        <div class="logo-img">
+            <img src="img/MyQuizAdventure-Logo.png" alt="">
+        </div>
+        <div class="text0">
+            <h3>Demo-Quiz für MyQuizAdventure</h3>
+            <p>Dies ist eine kurze, erste Demo für die MyCityHighlight AG für das erste Bewerbungsgespräch, welche zu Demonstrationszwecken dienen soll.</p>
+        </div>
+        <div class="MyBtnLoader">
+            <button>Los geht's</button>
+        </div>
+    </div>
+
+    <div class="MyQuizAdventure">
+        <div class="activeLoader">
+            <div class="img">
+                <img src="img/questions.svg" alt="">
+            </div>
+            <div class="text1">
+                <h3>Quiz App mit Zeiteinschränkung</h3>
+                <p>Dies ist eine kurze Demoversion einer Web basierenden Quiz-App, welche mit einfachem HTML, CSS und Javascript erbaut wurde. </p>
+            </div>
+            <div class="MyBtn">
+                <button>Weiter</button>
+            </div>
+     </div>
+    </div>
+
+    <div class="RulesBox">
+    <div class="RulesTitle">Die Regeln zum Demo-Quiz</div>
+     <div class="RulesList">
+        <ol>
+            <li>Pro Frage hast du nur <br><span style="color: #1fa9c1; font-weight: 500;">30 Sekunden</span><br> Zeit um diese zu beantworten.</li>
+            <li>Du kannst deine Wahl nur einmal anklicken/auswählen.</li>
+            <li>Du kannst keine Wahl mehr anklicken/auswählen wenn die Zeit abgelaufen ist.</li>
+            <li> Du kannst das Quiz nicht vorzeitig beenden und am gleichen Ort wieder starten.</li>
+            <li>Du erhältst Punkte am Ende des Quiz welche der Anzahl der richtig beantworteten Fragen entspricht.</li>
+
+        </ol>
+   </div>
+
+   <div class="Buttons">
+      <button class="ExitButton">Quiz Abbrechen</button>
+      <button class="ContinueButton">Quiz Starten</button>
+   </div>
+    </div>
+
+    <div class="Questions">
+
+    <header class="QuestionsHeader">
+        <div class="title">Quiz Start</div>
+
+        <div class="TimeCount">
+            <div class="TimeLeft">Zeit übrig</div>
+            <div class="Seconds">30</div>
+        </div>
+
+        <div class="time_lines"></div>
+    </header>
+    
+    <div class="help">
+  
+        <div class="fragezeichen">?</div>
+      
+        <div class="popup">
+          <h3>Hilfestellung</h3>
+          <p>Diese skills...</p>
+          <p>Test mit Lorem Ipsum text mit allerlei Möglichkeiten und möglichen Allerleis…</p><br>
+          <p>Test mit Lorem Ipsum text mit allerlei Möglichkeiten und möglichen Allerleis…</p><br>
+          <div class="tell-me">
+              <p><a href="http://www.sb-switzerland.ch/?id=14+" target="_blank">Weitere Informationen hier</a></p>
+            </div>
+            <br>
+          </div>
+      
+      </div>
+
+
+    <div class="section">
+       
+        <div class="text">  
+              <!-- <span>Wie lautet der bisherige Projektname für die neue Web-App?</span>  -->
+        </div>
+     
+        <div class="MyOptions">
+        </div>       
+    </div>
+
+    <footer>
+        <div class="total_que">
+           <!-- <p>1 von 4 Quizfragen</p> -->
+        </div>
+        <button class="nextBtn">Weiter</button>
+        
+    </footer>
+    
+    </div>
+
+    <div class="reslut_box">
+    <div class="ResultImg">
+        <img src="img/winners.svg" alt="">
+    </div>
+    <div class="complete_titel">Gratulation!</div>
+    <div class="complete_text">Das Quiz wurde erfolgreich beendet</div>
+    <div class="score_text">
+        <img src="" alt="">
+        <span>Du hattest <p>0</p> von <p>4</p> möglichen Antworten richtig beantwortet</span>
+    </div>
+    <div class="buttons">
+        <button class="restart1">Nochmal spielen</button>
+        <button class="quit">Quiz beenden</button>
+    </div>
+    </div> 
+
+    <script src="js/script.js"></script>
+    <script src="js/question.js"></script>
+    <script src="js/help.js"></script>
+
+</body>
+</html>
